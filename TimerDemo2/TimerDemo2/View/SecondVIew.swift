@@ -8,13 +8,24 @@
 import SwiftUI
 
 struct SecondVIew: View {
+    @ObservedObject var timerData: TimerData
+    //@EnvironmentObject Object var timerData: TimerData
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Text("Second View")
+                .font(.largeTitle)
+            Text("Timer count = \(timerData.timerCount)")
+            Button(action: timerData.resetCount) {
+                Text("reset")
+            }
+            .padding()
+        }
     }
 }
 
 struct SecondVIew_Previews: PreviewProvider {
     static var previews: some View {
-        SecondVIew()
+        SecondVIew(timerData: TimerData())
     }
 }
