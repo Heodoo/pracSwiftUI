@@ -8,13 +8,22 @@
 import SwiftUI
 
 struct ThirdView: View {
+    @EnvironmentObject var timerData : TimerData
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView{
+            VStack {
+                Text("Third View")
+                    .font(.largeTitle)
+                Text("Timer Count: \(timerData.timerCount)")
+                    .font(.headline)
+            }
+            .padding()
+        }
     }
 }
-
-struct ThirdView_Previews: PreviewProvider {
-    static var previews: some View {
-        ThirdView()
-    }
-}
+//
+//struct ThirdView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ThirdView()
+//    }
+//}

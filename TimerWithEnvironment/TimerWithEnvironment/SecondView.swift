@@ -8,13 +8,29 @@
 import SwiftUI
 
 struct SecondView: View {
+    @EnvironmentObject var timerData : TimerData
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView{
+            VStack {
+                Text("Second View")
+                    .font(.largeTitle)
+                Text("Timer Count: \(timerData.timerCount)")
+                    .font(.headline)
+                
+                NavigationLink(destination:
+                                ThirdView()) {
+                    Text("Next Screen")
+                }
+                                .padding()
+            }
+            .padding()
+            
+        }
     }
 }
 
-struct SecondView_Previews: PreviewProvider {
-    static var previews: some View {
-        SecondView()
-    }
-}
+//struct SecondView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        SecondView()
+//    }
+//}

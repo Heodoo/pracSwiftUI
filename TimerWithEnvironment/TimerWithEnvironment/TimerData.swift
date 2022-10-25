@@ -6,15 +6,22 @@
 //
 
 import SwiftUI
+import Foundation
+import Combine
 
-struct TimerData: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+class TimerData : ObservableObject {
+    @Published var timerCount = 0
+    var timer : Timer?
+    
+    init() {
+        timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(timerDidFire), userInfo: nil, repeats: true)
     }
-}
-
-struct TimerData_Previews: PreviewProvider {
-    static var previews: some View {
-        TimerData()
+    
+    @objc func timerDidFire() {
+        timerCount += 1
+    }
+    
+    func resetCount() {
+        timerCount = 0
     }
 }
