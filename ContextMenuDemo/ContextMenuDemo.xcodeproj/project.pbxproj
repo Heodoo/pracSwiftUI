@@ -7,36 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F315647C2907830700141F15 /* carData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F315647B2907830600141F15 /* carData.swift */; };
-		F315647E2907846100141F15 /* CarStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F315647D2907846100141F15 /* CarStore.swift */; };
-		F3156480290785FC00141F15 /* CarDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F315647F290785FC00141F15 /* CarDetail.swift */; };
-		F315648229079A6000141F15 /* AddNewCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F315648129079A6000141F15 /* AddNewCar.swift */; };
-		F3BC282F290780E50030D3AF /* ListNavDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BC282E290780E50030D3AF /* ListNavDemoApp.swift */; };
-		F3BC2831290780E50030D3AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BC2830290780E50030D3AF /* ContentView.swift */; };
-		F3BC2833290780EA0030D3AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3BC2832290780EA0030D3AF /* Assets.xcassets */; };
-		F3BC2836290780EA0030D3AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3BC2835290780EA0030D3AF /* Preview Assets.xcassets */; };
-		F3BC283D290781AF0030D3AF /* CarAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3BC283C290781AF0030D3AF /* CarAssets.xcassets */; };
-		F3BC283F290781D40030D3AF /* carData.json in Resources */ = {isa = PBXBuildFile; fileRef = F3BC283E290781D40030D3AF /* carData.json */; };
-		F3BC2841290781ED0030D3AF /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BC2840290781ED0030D3AF /* Car.swift */; };
+		F33115F92908BF55003158B3 /* ContextMenuDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33115F82908BF55003158B3 /* ContextMenuDemoApp.swift */; };
+		F33115FB2908BF55003158B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33115FA2908BF55003158B3 /* ContentView.swift */; };
+		F33115FD2908BF59003158B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F33115FC2908BF59003158B3 /* Assets.xcassets */; };
+		F33116002908BF59003158B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F33115FF2908BF59003158B3 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F315647B2907830600141F15 /* carData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carData.swift; sourceTree = "<group>"; };
-		F315647D2907846100141F15 /* CarStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarStore.swift; sourceTree = "<group>"; };
-		F315647F290785FC00141F15 /* CarDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetail.swift; sourceTree = "<group>"; };
-		F315648129079A6000141F15 /* AddNewCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewCar.swift; sourceTree = "<group>"; };
-		F3BC282B290780E50030D3AF /* ListNavDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListNavDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3BC282E290780E50030D3AF /* ListNavDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNavDemoApp.swift; sourceTree = "<group>"; };
-		F3BC2830290780E50030D3AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F3BC2832290780EA0030D3AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F3BC2835290780EA0030D3AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F3BC283C290781AF0030D3AF /* CarAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CarAssets.xcassets; sourceTree = "<group>"; };
-		F3BC283E290781D40030D3AF /* carData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = carData.json; sourceTree = "<group>"; };
-		F3BC2840290781ED0030D3AF /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		F33115F52908BF55003158B3 /* ContextMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContextMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F33115F82908BF55003158B3 /* ContextMenuDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuDemoApp.swift; sourceTree = "<group>"; };
+		F33115FA2908BF55003158B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F33115FC2908BF59003158B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F33115FF2908BF59003158B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F3BC2828290780E50030D3AF /* Frameworks */ = {
+		F33115F22908BF55003158B3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -46,44 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F3BC2822290780E50030D3AF = {
+		F33115EC2908BF55003158B3 = {
 			isa = PBXGroup;
 			children = (
-				F3BC282D290780E50030D3AF /* ListNavDemo */,
-				F3BC282C290780E50030D3AF /* Products */,
+				F33115F72908BF55003158B3 /* ContextMenuDemo */,
+				F33115F62908BF55003158B3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F3BC282C290780E50030D3AF /* Products */ = {
+		F33115F62908BF55003158B3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F3BC282B290780E50030D3AF /* ListNavDemo.app */,
+				F33115F52908BF55003158B3 /* ContextMenuDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F3BC282D290780E50030D3AF /* ListNavDemo */ = {
+		F33115F72908BF55003158B3 /* ContextMenuDemo */ = {
 			isa = PBXGroup;
 			children = (
-				F3BC282E290780E50030D3AF /* ListNavDemoApp.swift */,
-				F3BC2830290780E50030D3AF /* ContentView.swift */,
-				F315648129079A6000141F15 /* AddNewCar.swift */,
-				F315647F290785FC00141F15 /* CarDetail.swift */,
-				F3BC2840290781ED0030D3AF /* Car.swift */,
-				F315647B2907830600141F15 /* carData.swift */,
-				F315647D2907846100141F15 /* CarStore.swift */,
-				F3BC2832290780EA0030D3AF /* Assets.xcassets */,
-				F3BC283C290781AF0030D3AF /* CarAssets.xcassets */,
-				F3BC283E290781D40030D3AF /* carData.json */,
-				F3BC2834290780EA0030D3AF /* Preview Content */,
+				F33115F82908BF55003158B3 /* ContextMenuDemoApp.swift */,
+				F33115FA2908BF55003158B3 /* ContentView.swift */,
+				F33115FC2908BF59003158B3 /* Assets.xcassets */,
+				F33115FE2908BF59003158B3 /* Preview Content */,
 			);
-			path = ListNavDemo;
+			path = ContextMenuDemo;
 			sourceTree = "<group>";
 		};
-		F3BC2834290780EA0030D3AF /* Preview Content */ = {
+		F33115FE2908BF59003158B3 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				F3BC2835290780EA0030D3AF /* Preview Assets.xcassets */,
+				F33115FF2908BF59003158B3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -91,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F3BC282A290780E50030D3AF /* ListNavDemo */ = {
+		F33115F42908BF55003158B3 /* ContextMenuDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3BC2839290780EA0030D3AF /* Build configuration list for PBXNativeTarget "ListNavDemo" */;
+			buildConfigurationList = F33116032908BF59003158B3 /* Build configuration list for PBXNativeTarget "ContextMenuDemo" */;
 			buildPhases = (
-				F3BC2827290780E50030D3AF /* Sources */,
-				F3BC2828290780E50030D3AF /* Frameworks */,
-				F3BC2829290780E50030D3AF /* Resources */,
+				F33115F12908BF55003158B3 /* Sources */,
+				F33115F22908BF55003158B3 /* Frameworks */,
+				F33115F32908BF55003158B3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ListNavDemo;
-			productName = ListNavDemo;
-			productReference = F3BC282B290780E50030D3AF /* ListNavDemo.app */;
+			name = ContextMenuDemo;
+			productName = ContextMenuDemo;
+			productReference = F33115F52908BF55003158B3 /* ContextMenuDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F3BC2823290780E50030D3AF /* Project object */ = {
+		F33115ED2908BF55003158B3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
-					F3BC282A290780E50030D3AF = {
+					F33115F42908BF55003158B3 = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
 				};
 			};
-			buildConfigurationList = F3BC2826290780E50030D3AF /* Build configuration list for PBXProject "ListNavDemo" */;
+			buildConfigurationList = F33115F02908BF55003158B3 /* Build configuration list for PBXProject "ContextMenuDemo" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -131,49 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = F3BC2822290780E50030D3AF;
-			productRefGroup = F3BC282C290780E50030D3AF /* Products */;
+			mainGroup = F33115EC2908BF55003158B3;
+			productRefGroup = F33115F62908BF55003158B3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F3BC282A290780E50030D3AF /* ListNavDemo */,
+				F33115F42908BF55003158B3 /* ContextMenuDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F3BC2829290780E50030D3AF /* Resources */ = {
+		F33115F32908BF55003158B3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3BC283F290781D40030D3AF /* carData.json in Resources */,
-				F3BC2836290780EA0030D3AF /* Preview Assets.xcassets in Resources */,
-				F3BC2833290780EA0030D3AF /* Assets.xcassets in Resources */,
-				F3BC283D290781AF0030D3AF /* CarAssets.xcassets in Resources */,
+				F33116002908BF59003158B3 /* Preview Assets.xcassets in Resources */,
+				F33115FD2908BF59003158B3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F3BC2827290780E50030D3AF /* Sources */ = {
+		F33115F12908BF55003158B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F315647E2907846100141F15 /* CarStore.swift in Sources */,
-				F315647C2907830700141F15 /* carData.swift in Sources */,
-				F315648229079A6000141F15 /* AddNewCar.swift in Sources */,
-				F3BC2831290780E50030D3AF /* ContentView.swift in Sources */,
-				F3156480290785FC00141F15 /* CarDetail.swift in Sources */,
-				F3BC282F290780E50030D3AF /* ListNavDemoApp.swift in Sources */,
-				F3BC2841290781ED0030D3AF /* Car.swift in Sources */,
+				F33115FB2908BF55003158B3 /* ContentView.swift in Sources */,
+				F33115F92908BF55003158B3 /* ContextMenuDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F3BC2837290780EA0030D3AF /* Debug */ = {
+		F33116012908BF59003158B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -233,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		F3BC2838290780EA0030D3AF /* Release */ = {
+		F33116022908BF59003158B3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -287,14 +259,14 @@
 			};
 			name = Release;
 		};
-		F3BC283A290780EA0030D3AF /* Debug */ = {
+		F33116042908BF59003158B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ListNavDemo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ContextMenuDemo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -307,7 +279,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.codelion.ListNavDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codelion.ContextMenuDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -315,14 +287,14 @@
 			};
 			name = Debug;
 		};
-		F3BC283B290780EA0030D3AF /* Release */ = {
+		F33116052908BF59003158B3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ListNavDemo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ContextMenuDemo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -335,7 +307,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.codelion.ListNavDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codelion.ContextMenuDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -346,25 +318,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F3BC2826290780E50030D3AF /* Build configuration list for PBXProject "ListNavDemo" */ = {
+		F33115F02908BF55003158B3 /* Build configuration list for PBXProject "ContextMenuDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3BC2837290780EA0030D3AF /* Debug */,
-				F3BC2838290780EA0030D3AF /* Release */,
+				F33116012908BF59003158B3 /* Debug */,
+				F33116022908BF59003158B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3BC2839290780EA0030D3AF /* Build configuration list for PBXNativeTarget "ListNavDemo" */ = {
+		F33116032908BF59003158B3 /* Build configuration list for PBXNativeTarget "ContextMenuDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3BC283A290780EA0030D3AF /* Debug */,
-				F3BC283B290780EA0030D3AF /* Release */,
+				F33116042908BF59003158B3 /* Debug */,
+				F33116052908BF59003158B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F3BC2823290780E50030D3AF /* Project object */;
+	rootObject = F33115ED2908BF55003158B3 /* Project object */;
 }
