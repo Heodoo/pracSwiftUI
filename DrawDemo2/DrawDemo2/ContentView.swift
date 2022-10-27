@@ -9,11 +9,28 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView{
+            VStack{
+                NavigationLink(destination: { OlympicRingsView() }) {
+                    Text("오륜기")
+                        .font(.largeTitle)
+                }
+                .padding()
+                
+                NavigationLink(destination: { StarShapeView() }) {
+                    Text("커스텀별")
+                        .font(.largeTitle)
+                }
+                .padding()
+                
+                NavigationLink(destination: { GraphView() }) {
+                    Text("그래프")
+                        .font(.largeTitle)
+                }
+                .padding()
+                
+                
+            }
         }
         .padding()
     }
