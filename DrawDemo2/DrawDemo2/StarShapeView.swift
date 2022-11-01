@@ -38,12 +38,6 @@ struct StarShape : Shape {
         path.addLine(to: CGPoint(x:startX +  edge/2, y:startY + 0))
         path.addLine(to: CGPoint(x:startX + edge/2.0+edge*0.3 , y:startY + edge))
         path.addLine(to: CGPoint(x:startX +  0, y:startY + edge*0.34))
-//        path.move(to: CGPoint(x: 0, y: edge * 0.34))
-//        path.addLine(to: CGPoint(x: edge, y: edge*0.34))
-//        path.addLine(to: CGPoint(x: edge/2.0-edge*0.3, y: edge))
-//        path.addLine(to: CGPoint(x: edge/2, y: 0))
-//        path.addLine(to: CGPoint(x:edge/2.0+edge*0.3 , y: edge))
-//        path.addLine(to: CGPoint(x: 0, y: edge*0.34))
         path.closeSubpath()
         return path
     }
