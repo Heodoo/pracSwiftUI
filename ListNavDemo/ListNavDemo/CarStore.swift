@@ -6,7 +6,7 @@
 //
 
 import Combine
-import SwiftUI
+//import SwiftUI
 
 class CarStore: ObservableObject {
     @Published var cars: [Car]

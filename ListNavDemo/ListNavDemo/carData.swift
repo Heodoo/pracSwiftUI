@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import SwiftUI
+//import SwiftUI
 import Foundation
 
 var carData: [Car] = loadJson("carData.json")
