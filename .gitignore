@@ -93,4 +93,5 @@ iOSInjectionProject/
 *.swp
 
 # OS or Editor folders
+**/.DS_Store
 .DS_Store
