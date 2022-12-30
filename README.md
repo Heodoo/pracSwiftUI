@@ -1,6 +1,6 @@
 # pracSwiftUI
 
-### 22/12/04 PhotosUI + 자동스크롤
+### PhotosUI + 자동스크롤
 + https://github.com/Heodoo/pracSwiftUI/tree/main/PracPhotosUI
 + PhotosUI의 PhotosPicker 로 로컬 사진들(사진첩) 가져오기
   + [PhotosPickerItem] -> [UIImage]
