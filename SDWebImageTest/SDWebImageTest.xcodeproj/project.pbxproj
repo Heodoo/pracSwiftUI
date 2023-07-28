@@ -11,7 +11,6 @@
 		FA45F6F02A70DC9000B8BBC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA45F6EF2A70DC9000B8BBC8 /* ContentView.swift */; };
 		FA45F6F22A70DC9200B8BBC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA45F6F12A70DC9200B8BBC8 /* Assets.xcassets */; };
 		FA45F6F52A70DC9200B8BBC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA45F6F42A70DC9200B8BBC8 /* Preview Assets.xcassets */; };
-		FA45F6FD2A70DCCC00B8BBC8 /* libwebp in Frameworks */ = {isa = PBXBuildFile; productRef = FA45F6FC2A70DCCC00B8BBC8 /* libwebp */; };
 		FA45F7002A70DCED00B8BBC8 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FA45F6FF2A70DCED00B8BBC8 /* SDWebImageSwiftUI */; };
 		FA45F7052A70F1F900B8BBC8 /* SDWebImageWebPCoder in Frameworks */ = {isa = PBXBuildFile; productRef = FA45F7042A70F1F900B8BBC8 /* SDWebImageWebPCoder */; };
 		FA45F7072A70F63E00B8BBC8 /* ImageConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA45F7062A70F63E00B8BBC8 /* ImageConverter.swift */; };
@@ -32,7 +31,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA45F7002A70DCED00B8BBC8 /* SDWebImageSwiftUI in Frameworks */,
-				FA45F6FD2A70DCCC00B8BBC8 /* libwebp in Frameworks */,
 				FA45F7052A70F1F900B8BBC8 /* SDWebImageWebPCoder in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -93,7 +91,6 @@
 			);
 			name = SDWebImageTest;
 			packageProductDependencies = (
-				FA45F6FC2A70DCCC00B8BBC8 /* libwebp */,
 				FA45F6FF2A70DCED00B8BBC8 /* SDWebImageSwiftUI */,
 				FA45F7042A70F1F900B8BBC8 /* SDWebImageWebPCoder */,
 			);
@@ -388,11 +385,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		FA45F6FC2A70DCCC00B8BBC8 /* libwebp */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FA45F6FB2A70DCCC00B8BBC8 /* XCRemoteSwiftPackageReference "libwebp-Xcode" */;
-			productName = libwebp;
-		};
 		FA45F6FF2A70DCED00B8BBC8 /* SDWebImageSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = FA45F6FE2A70DCED00B8BBC8 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;

@@ -10,38 +10,49 @@ import SDWebImageSwiftUI
 import PhotosUI
 import SDWebImageWebPCoder
 import MobileCoreServices
-import libwebp
 
-@MainActor
+
+// UIImage 를 관리하는 객체
 class ImageConverter: ObservableObject {
-    @Published var image: Image?
+    @Published var uiImage: UIImage?
     @Published var photo: PhotosPickerItem?
-    @Published var imageData: Data?
     @Published var webpData: Data?
     
     func encodeImageToWebp(uiImage: UIImage) async{
         dump(#function)
         
-        //let downSampled = await
-        let webpData = await encodeData(uiImage: uiImage)
-        NSLog("End encode")
+        guard let data = uiImage.pngData() else {
+            NSLog("Encode failed: wrong data")
+            return
+        }
+        
+        guard let downSampledUIImage = await downSample(at: data, to: CGSize(width: 200, height: 200), scale: 2) else {
+            NSLog("Encode failed: failed down sampled image")
+            return
+        }
+        self.uiImage = downSampledUIImage
+        
+        guard let webpData = await encodeData(uiImage: downSampledUIImage) else {
+            NSLog("Encode failed: failed uiimage to webpdata encode")
+            return
+        }
+        self.webpData = webpData
+        
+        
+        NSLog("Success: End encode")
         print("webpdata:\(String(describing: webpData))")
     }
     
+    // Encode UIImage to webp image data
     func encodeData(uiImage: UIImage) async -> Data? {
         dump(#function)
-        uiImage.jpegData(compressionQuality: <#T##CGFloat#>)
-        //limit output file size <= 1MB
+        //limit output file size <= 10KB
         let options: [SDImageCoderOption: Any] = [.encodeCompressionQuality: 0.1,.encodeMaxFileSize: 1024 * 10]
         let data = SDImageWebPCoder.shared.encodedData(with: uiImage, format: .webP, options: options)
         return data
     }
     
-    func loadImageFromWebp(uiImage: UIImage) async{
-        dump(#function)
-        self.image = Image(uiImage: uiImage)
-    }
-    
+    // Down sampling UIImage data type,and return down sampled UIImage
     func downSample(at data: Data, to pointSize: CGSize, scale: CGFloat) async -> UIImage? {
         let imageSourceOptions = [kCGImageSourceShouldCache: false] as CFDictionary
         guard let imageSource = CGImageSourceCreateWithData(data as CFData, imageSourceOptions)  else {
@@ -60,22 +71,6 @@ class ImageConverter: ObservableObject {
             return UIImage()
         }
         return UIImage(cgImage: downsampledImage)
-    }
-    
-    func convertUIImageToCGImageSource(_ image: UIImage) -> CGImageSource? {
-        guard let imageData = image.pngData() else {
-            return nil
-        }
-
-        guard let dataProvider = CGDataProvider(data: imageData as CFData) else {
-            return nil
-        }
-
-        let options: [CFString: Any] = [
-            kCGImageSourceTypeIdentifierHint: kUTTypePNG // 이미지 타입을 PNG로 지정합니다.
-        ]
-
-        return CGImageSourceCreateWithDataProvider(dataProvider, options as CFDictionary)
     }
     
 }
